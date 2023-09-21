@@ -1,0 +1,22 @@
+.PreFooter
+{
+    margin: 5vmax 0 0 0;
+    background-color: rgb(238, 226, 226);
+    padding:3vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.PreFooter >div
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:rgba(66,66,66,0.829);
+}
+.PreFooter svg
+{
+    transform:scale(2) translateY(-0.2vmax);
+    margin: 2vmax;
+    fill:rgb(39, 38, 38);
+}
